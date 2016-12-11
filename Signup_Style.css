@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #4286F4;
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	width: 170px;
+	height: 35px;
+}
+
+#logo img {
+	width: 100%;
+	height: 100%;
+}
+
+#signin_box {
+	background-color: white;
+	box-sizing: border-box;
+	width: 400px;
+	height: 470px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+#signin_box h1 {
+	font-weight: lighter;
+	text-align: center;
+}
+
+fieldset {
+	border: none;
+	margin: 0 auto;
+}
+
+fieldset label, input {
+	display: block;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+fieldset input, button {
+	box-sizing: border-box;
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	border: 2px #E7E7E7 solid;
+	border-radius: 5px;
+}
+
+fieldset button {
+	background-color: #65C470;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+fieldset button:hover {
+	background-color: #31813a;
+}
+
+#signin_box a {
+	color: grey;
+}
+
+#signin_box a p {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+
+main > p {
+	color: white;
+	text-align: center;
+}
+
+main a {
+	color: white;
+
+}
